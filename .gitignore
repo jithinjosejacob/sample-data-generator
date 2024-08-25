@@ -1,1 +1,7 @@
-node_modules
+target
+.env
+bin
+.idea
+.vscode
+coverage/
+node_modules/
