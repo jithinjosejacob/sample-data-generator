@@ -122,7 +122,7 @@ const DashboardPage = () => {
             );
             setRows(updatedRows)
             setGeneratedReceipt(updatedRows.map((row) => row.receipt));
-            setGeneratedStan(updatedRows.map((row) => row.stan);
+            setGeneratedStan(updatedRows.map((row) => row.stan));
         } finally {
             setLoading(false)
             setTimeout(() => {
@@ -246,6 +246,7 @@ const DashboardPage = () => {
                 <DataGenerator
                     rows={rows}
                     generatedReceipt={generatedReceipt}
+                    generatedStan={generatedStan}
                     handleCopyToClipboard={handleCopyToClipBoard}
                     handleGenerateByType={handleGenerateByType}
                     updateRowHealthCheckStatus={updateRowHealthCheckStatus}
