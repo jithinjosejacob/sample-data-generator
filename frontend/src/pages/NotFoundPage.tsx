@@ -15,7 +15,7 @@ const NotFoundPage = () => {
                         Page Not Found
                     </p>
                     <p className='text-black mt-4 pb-4 border-b-2 text-center'>
-                        Access denied champ. Try Another page.
+                        Access denied on this page. Try Another page.
                     </p>
                     <div className = "flex items-center mt-4">
                         <Button

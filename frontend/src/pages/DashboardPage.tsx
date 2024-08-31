@@ -16,7 +16,7 @@ import {
 } from '@mui/material';
 import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh'
 import AutorenewIcon from '@mui/icons-material/Autorenew'
-import HelpIcon from '@mui/icons-material/help'
+import HelpIcon from '@mui/icons-material/Help'
 import DataGenerator from '../components/sections/DataGenerator'
 import Row from '../interfaces/Row'
 import ArtisticTypography from '../components/ui/ArtisticTypography'
