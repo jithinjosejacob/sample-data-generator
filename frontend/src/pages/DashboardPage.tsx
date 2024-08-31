@@ -28,8 +28,21 @@ import Notification from '../components/ui/Notification'
 const DashboardPage = () => {
     const [loading, setLoading] = useState(false)
     const [rows, setRows] = useState<Row[]>{
-        
-    }
- 
+        localStorage.getItem('rows')
+        ? JSON.parse(localStorage.getItem('rows'))
+        :[
+            { type: 'VISA', receipt: '', stan: '', healthCheckStatus: false },
+            {
+                type: 'MASTERCARD',
+                receipt: '',
+                stan: '',
+                healthCheckStatus: false,
+            }
+            { type: 'EPAL', receipt: '', stan: '', healthCheckStatus: false },
+            { type: 'AMEX', receipt: '', stan: '', healthCheckStatus: false },
+            { type: 'JCB', receipt: '', stan: '', healthCheckStatus: false },
+            }
+        ]
+    };
 }
 export default DashboardPage;
